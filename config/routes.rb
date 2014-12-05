@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   end
 
   get '/about' => 'pages#about'
+  get '/anks' => 'pages#anks'
 
   get '/404' => 'errors#not_found'
   get '/500' => 'errors#internal_error'
